@@ -7,6 +7,13 @@ module Myob
             'Purchase/Order/Item'
           end
         end      
+
+        class PurchaseOrder < Base
+          def model_route
+            'Purchase/Bill'
+          end
+        end      
+        
       end
     end
   end
