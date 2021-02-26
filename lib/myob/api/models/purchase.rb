@@ -8,7 +8,7 @@ module Myob
           end
         end      
 
-        class PurchaseOrder < Base
+        class PurchaseBill < Base
           def model_route
             'Purchase/Bill'
           end
