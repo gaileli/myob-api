@@ -10,7 +10,7 @@ module Myob
 
         class PurchaseBill < Base
           def model_route
-            'Purchase/Bill'
+            'Purchase/Bill/Service'
           end
         end      
         
